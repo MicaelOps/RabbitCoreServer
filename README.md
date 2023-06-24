@@ -10,3 +10,5 @@ through here.
 Moreover, in the future this core server can serve as a global command line for the minecraft
 servers if it is required.
 
+
+Dependencies: MongoDB (libmongoc), RabbitMQ (librabbitmq)
