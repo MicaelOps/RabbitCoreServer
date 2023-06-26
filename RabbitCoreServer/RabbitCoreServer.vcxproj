@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mongodb_handler.c" />
+    <ClCompile Include="rabbitmq_handler.c" />
     <ClCompile Include="servermainc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mongodb_handler.h" />
+    <ClInclude Include="rabbitmq_handler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

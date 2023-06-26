@@ -18,5 +18,19 @@
     <ClCompile Include="servermainc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mongodb_handler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbitmq_handler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mongodb_handler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbitmq_handler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
